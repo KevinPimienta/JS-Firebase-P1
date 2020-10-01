@@ -1,0 +1,13 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyChP6NRGviCQ7FY49MVNK1khnoHCDHPb90",
+    authDomain: "bandas-fa71b.firebaseapp.com",
+    databaseURL: "https://bandas-fa71b.firebaseio.com",
+    projectId: "bandas-fa71b",
+    storageBucket: "bandas-fa71b.appspot.com",
+    messagingSenderId: "712520475923",
+    appId: "1:712520475923:web:2d18c9383aede732f526e6",
+    measurementId: "G-1D2LX8SFVR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
